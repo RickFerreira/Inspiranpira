@@ -1,7 +1,28 @@
+@media (max-width: 360px) {
+  .contact a {
+      font-size: 10px;
+  }
+}
+@media (max-width: 405px) {
+  .contact a {
+      font-size: 12px; 
+  }
+}
+@media (max-width: 575px) {
+  .hero .single-slide .btn {
+      margin-top: 10px;
+  }
+  .hero {
+    padding-top: 50px; /* Ajusta o preenchimento superior da seção "Capa" */
+  }
+}
 /*-----------------------------------
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
 @media (min-width: 576px) {
+  .navbar-brand img {
+    width: 150px;
+  }
   .top-header {
     padding: 25px 0 15px;
   }
@@ -26,7 +47,7 @@
 ------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
-    width: 100px;
+    width: 150px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 10px;
@@ -120,7 +141,7 @@
     top: 50%;
   }
   .featured-img {
-    height: 100%;
+    height: 50%;
     margin-top: -66px;
   }
   .cta-content {
@@ -170,7 +191,7 @@
 ------------------------------------*/
 @media (min-width: 1200px) {
   .navbar-brand img {
-    width: auto;
+    width: 150px;
   }
   .title h1 {
     font-size: 58px;

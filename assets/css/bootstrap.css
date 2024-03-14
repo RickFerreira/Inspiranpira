@@ -4,26 +4,26 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
-  --blue: #199FA4;
+ :root {
+  --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #F15D5F;
+  --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #199FA4;
+  --cyan: #17a2b8;
   --white: #fff;
   --gray: #777;
   --gray-dark: #343a40;
-  --primary: #F15D5F;
+  --primary: #ee1515;
   --secondary: #777;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
-  --danger: #F15D5F;
+  --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
@@ -2307,7 +2307,7 @@ textarea.form-control {
   content: "";
   width: calc(100% + 2px);
   height: 100%;
-  background-color: rgba(24, 9, 53, 0.77);
+  background-color: #a55874b4;
   border-top-right-radius: 1.5625rem;
   border-bottom-left-radius: 1.5625rem;
   position: absolute;
@@ -2345,14 +2345,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #ee1515;
+  background-color: #E67531;
+  border-color: #E67531;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #c20e0e;
+  background-color: #E67531;
+  border-color: #F15D5F;
 }
 
 .btn-primary:focus, .btn-primary.focus {
