@@ -162,6 +162,9 @@
     Large devices (desktops, 992px and up)
 ------------------------------------*/
 @media (min-width: 992px) {
+  .navbar-brand img {
+    width: 150px;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 13px;
   }

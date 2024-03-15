@@ -19,7 +19,7 @@
     1 - Header
 ------------------------------------*/
 header {
-  background-color: #199fa4ab;
+  background-color: #199fa4;
   color: #fff;
   z-index: 1000;
 }
@@ -39,9 +39,9 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
+  font-family: Arial, sans-serif;
+  font-weight: bold; 
   text-transform:uppercase;
-
 }
 
 .contact {
@@ -283,7 +283,7 @@ form button.btn-primary:hover {
 .cta-content {
   padding: 30px 0 90px;
   color: #fff;
-  background-color: #DA8528;
+  background-color: #E67531;
   position: relative;
   z-index: 1;
 }
@@ -292,7 +292,7 @@ form button.btn-primary:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #E67531;
+  background-color: #0C2441;
   position: absolute;
   top: -25px;
   left: -1px;
@@ -349,6 +349,28 @@ form button.btn-primary:hover {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+/*-----------------------------------
+    1 - Estatisticas
+------------------------------------*/
+.statistics {
+  padding: 50px 0;
+  background-color: #E5763B; /* Cor de fundo cinza claro */
+  border-top: 5px solid #F9A235; /* Borda superior azul */
+  border-bottom: 5px solid #F9A235; /* Borda inferior azul */
+}
+
+.statistics .number {
+  color: #fff; /* Cor branca para os números */
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.statistics .description {
+  color: #0C2441; /* Cor cinza claro para o texto */
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 
 /*-----------------------------------
     1 - Featured
@@ -667,9 +689,9 @@ form button.btn-primary:hover {
 }
 
 .testimonials .test-img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -678,7 +700,7 @@ form button.btn-primary:hover {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 90px;
+  height: 100%;
 }
 
 .testimonials h5 {
@@ -734,6 +756,11 @@ form button.btn-primary:hover {
 
 .clients .swiper-wrapper {
   text-align: center;
+}
+
+.clients .swiper-slide img {
+  width: 150px; /* Defina a largura desejada */
+  height: auto; /* Altura automática para manter a proporção */
 }
 
 /*-----------------------------------
@@ -933,3 +960,28 @@ span {
 .foot-note a.fh5-link {
   margin-left: 0;
 }
+
+
+/*-----------------------------------
+    1 - Botão para voltar ao topo
+------------------------------------*/
+#btnTop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #F15D5F;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30%;
+  font-size: 18px;
+}
+
+#btnTop:hover {
+  background-color: #dc3545;
+}
+
