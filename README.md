@@ -1,15 +1,15 @@
 <div align="center">
   
-# Inspiranpira  
+# Portfolio-Inspiranpira  
 
 <h4>Este é um projeto que estou fazendo para uma empresa de educação e empreendedorismo, chamada Inspira não Pira. Vai ser um website de portfólio para apresentar a empresa e seus serviços. </h4>
   
 <p>
 <!-- Image Shields -->
-<img  alt="Language Top"  src="https://img.shields.io/github/languages/top/RickFerreira/Inspiranpira">
-<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/RickFerreira/Inspiranpira">
-<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/RickFerreira/Inspiranpira">
-<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/RickFerreira/Inspiranpira">
+<img  alt="Language Top"  src="https://img.shields.io/github/languages/top/RickFerreira/Portfolio-Inspiranpira">
+<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/RickFerreira/Portfolio-Inspiranpira">
+<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/RickFerreira/Portfolio-Inspiranpira">
+<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/RickFerreira/Portfolio-Inspiranpira">
 </a>
 </p>
 
@@ -46,6 +46,6 @@
   </tr>
 </table>
 
-[☝🏽 Voltar ao topo](#Inspiranpira)<br>
+[☝🏽 Voltar ao topo](#Portfolio-Inspiranpira)<br>
 
 </div>
