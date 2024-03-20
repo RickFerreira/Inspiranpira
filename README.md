@@ -2,7 +2,7 @@
   
 # Portfolio-Inspiranpira  
 
-<h4>Este é um projeto que estou fazendo para uma empresa de educação e empreendedorismo, chamada Inspira não Pira. Vai ser um website de portfólio para apresentar a empresa e seus serviços. </h4>
+<h4>Este é um projeto de portfólio que estou fazendo para uma empresa chamada Inspira não Pira. Vai ser um website de para apresentar a empresa e seus serviços. </h4>
   
 <p>
 <!-- Image Shields -->
