@@ -40,7 +40,6 @@ header::after {
 
 .nav-link {
   font-family: Arial, sans-serif;
-  font-weight: bold; 
   text-transform:uppercase;
 }
 
@@ -691,7 +690,7 @@ form button.btn-primary:hover {
 .testimonials .test-img {
   width: 300px;
   height: 300px;
-  border-radius: 10%;
+  border-radius: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
