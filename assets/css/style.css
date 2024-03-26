@@ -375,6 +375,10 @@ form button.btn-primary:hover {
   border-bottom: 5px solid #E5763B; /* Borda inferior azul */
 }
 
+.statistics h1 {
+  color: #0C2441;
+}
+
 .statistics .number {
   color: #fff; /* Cor branca para os números */
   font-size: 48px;
@@ -466,7 +470,6 @@ form button.btn-primary:hover {
 .post-thumb {
   flex: 0 0 100%; /* Define a largura da imagem para ocupar toda a largura do bloco */
   order: -1; /* Muda a ordem dos elementos, colocando a imagem acima dos textos */
-  margin-bottom: 20px; /* Adiciona um espaçamento entre a imagem e os textos */
 }
 
 .post-content {
@@ -489,28 +492,8 @@ form button.btn-primary:hover {
 }
 
 .post-content p {
-  margin-bottom: 20px; /* Aumenta a margem inferior do parágrafo */
-}
-
-.post-btn {
-  display: inline-block;
-  width: 50px; /* Define a largura do botão */
-  height: 50px; /* Define a altura do botão */
-  line-height: 50px;
-  border-radius: 50%;
-  background-color: #F15D5F; /* Define a cor de fundo padrão */
-}
-
-.post-btn a {
-  color: #fff; /* Define a cor do ícone */
-}
-
-.post-btn:hover {
-  background-color: whitesmoke; /* Muda a cor de fundo ao passar o mouse */
-}
-
-.post-btn:hover a {
-  color: #F15D5F; /* Muda a cor do ícone ao passar o mouse */
+  color: #000000;
+  margin-bottom: -30px; /* Aumenta a margem inferior do parágrafo */
 }
 
 /*-----------------------------------
@@ -630,9 +613,13 @@ form button.btn-primary:hover {
   border-radius: 15px;
   background-color: transparent;
   position: absolute;
-  top: 28px;
+  top: 8px;
   right: 6px;
   transition: all 0.2s ease-in-out;
+}
+
+.single-pricing img {
+  width: 60px;
 }
 
 .single-pricing h2 {
@@ -812,7 +799,7 @@ footer {
 }
 
 .single-widget .widget-tiltle {
-  font-size: 17px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 45px;
@@ -828,6 +815,10 @@ footer {
 
 .single-widget .media {
   margin-bottom: 20px;
+}
+
+.single-widget .social-nav a i {
+  font-size: 40px; /* Ajustar o tamanho dos ícones */
 }
 
 .contact-widget a {
@@ -940,19 +931,19 @@ span {
 .subscribe-widget .social-nav a {
   display: inline-block;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
   background-color: #fff;
   color: #ddd;
-  background-color: #444;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin-right: 10px;
+  background-color: #3b3b3b;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .subscribe-widget .social-nav a i {
-  color: #ddd;
+  padding-top: 8px;
+  color: #ffffff;
 }
 
 .subscribe-widget .social-nav a:hover {
@@ -984,7 +975,7 @@ span {
 /*-----------------------------------
     1 - Botão para voltar ao topo
 ------------------------------------*/
-#btnTop {
+#btnTop, #btnInstagram, #btnYouTube, #btnWhatsApp {
   display: none;
   position: fixed;
   bottom: 40px;
@@ -996,11 +987,12 @@ span {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 30%;
+  border-radius: 30%; /* Use 50% para tornar os botões circulares */
   font-size: 18px;
 }
 
-#btnTop:hover {
+#btnTop:hover, #btnInstagram:hover, #btnYouTube:hover, #btnWhatsApp:hover {
   background-color: #dc3545;
 }
+
 
