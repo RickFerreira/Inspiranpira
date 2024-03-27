@@ -2,10 +2,22 @@
   .contact a {
       font-size: 10px;
   }
+  .pricing-table h2{
+    margin-right: 70px!important;
+    font-size: 18px;
+  }
 }
 @media (max-width: 405px) {
   .contact a {
       font-size: 12px; 
+  }
+  .pricing-table h2{
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  #btnTop {
+    margin-bottom: 20px;
+    margin-right: -10px;
   }
 }
 @media (max-width: 575px) {
@@ -15,7 +27,48 @@
   .hero {
     padding-top: 50px; /* Ajusta o preenchimento superior da seção "Capa" */
   }
+  .featured p {
+    font-size: 15px!important;  
+  }
+  .testimonials h5{
+    font-size: 30px;
+  }
+  .testimonials p{
+    font-size: 14px;
+  }
+  #emails {
+    margin-top: -70px;
+    padding-bottom: 30px;
+  }
+  #btnTop {
+    bottom: 60px;
+    padding: 10px 15px;
+    border-radius: 50%; /* Use 50% para tornar os botões circulares */
+  }
 }
+
+
+
+@media (max-width: 767px) {
+  .hero h3{
+    font-size: 29px !important;
+  }
+  .hero h4{
+    font-size: 18px !important;
+  }
+  .hero img{
+    min-width: 190px !important;
+  }
+  .hero i{
+    font-size: 50px !important;
+    margin-bottom: 600px;
+  }
+  .featured img{
+    margin-top: -20px;
+    margin-right: 10%;
+  }
+}
+
 /*-----------------------------------
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
@@ -164,6 +217,38 @@
     align-self: flex-end;
     margin-right: 30px;
   }
+  .pricing-table h2 {
+    font-size: 22px;
+  }
+  .recent-posts p{
+    font-size: 12px;
+  }
+  .recent-posts h3{
+    font-size: 22px;
+  }
+  .testimonials h5 {
+    font-size: 30px;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .statisticas h1 {
+    font-size: 30px;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 11px !important;
+  }
+
+  .hero .container {
+    margin-top: -70px; /* Diminui o espaçamento superior */
+  }
+
+}
+
+@media (max-width: 769px) {
+  #botao-menu {
+    display: none !important; /* Remove o botão */
+  }
 }
 
 /*-----------------------------------
@@ -194,7 +279,7 @@
   }
   .title h1 {
     font-size: 48px;
-  }
+  } 
 }
 
 /*-----------------------------------
@@ -219,6 +304,50 @@
     right: 0;
     height: 100%;
     padding: 75px 0;
+  }
+}
+
+/* Small devices (portrait phones, less than 1024px) */
+@media (max-width: 1024px) {
+  .navbar-brand img {
+    max-width: 130px; /* Define a largura máxima da imagem da logo */
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 11px; /* Diminui o tamanho do texto do menu */
+    margin-right: 0; /* Diminui o espaçamento entre os itens do menu */
+  }
+
+  .navbar-expand-md .navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Remove o espaçamento à direita do último item do menu */
+  }
+
+  .btn-primary {
+    font-size: 11px; /* Diminui o tamanho do texto do botão */
+  }
+
+  .featured h1 {
+    font-size: 2rem!important;
+  }
+
+  .statistics .number {
+    font-size: 40px;
+  }
+
+  .statistics .description {
+    font-size: 22px;
+  }
+
+  .pricing-table h1 {
+    font-size: 35px!important;
+  }
+
+  .recent-posts h1 {
+    font-size: 35px!important;
+  }
+
+  .testimonials h1 {
+    font-size: 35px!important;
   }
 }
 

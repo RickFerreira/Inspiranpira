@@ -30,7 +30,7 @@ header a {
 
 .nav-link {
   font-family: 'Cocogoose', sans-serif;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 .contact {
@@ -649,6 +649,13 @@ form button.btn-primary:hover {
   padding: 50px 0;
 }
 
+.pricing-table #botao{
+  margin-top: 30px;
+  color: #159196;
+  background-color: #F9FCC9;
+  box-shadow: 0px 5px 4px #0a4547;
+}
+
 .single-pricing {
   padding: 55px 0 20px;
   margin-top: 23px;
@@ -1080,7 +1087,7 @@ span {
 /*-----------------------------------
     1 - Botão para voltar ao topo
 ------------------------------------*/
-#btnTop, #btnInstagram, #btnYouTube, #btnWhatsApp {
+#btnTop {
   display: none;
   position: fixed;
   bottom: 40px;
@@ -1092,7 +1099,7 @@ span {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 30%; /* Use 50% para tornar os botões circulares */
+  border-radius: 50%; /* Use 50% para tornar os botões circulares */
   font-size: 18px;
 }
 
