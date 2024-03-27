@@ -27,7 +27,7 @@
 ### 💻 Results
 
 
-<a href="https://rickferreira.github.io/Inspiranpira/">-----------------Vizualizar como está ficando-----------------</a>
+<a href="https://rickferreira.github.io/Portfolio-Inspiranpira/">-----------------Vizualizar como está ficando-----------------</a>
 
 <br><br>
 
