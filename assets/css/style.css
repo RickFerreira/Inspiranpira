@@ -28,16 +28,6 @@ header a {
   color: #fff;
 }
 
-header::after {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: #F15D5F;
-  position: absolute;
-  left: 0;
-  bottom: -20px;
-}
-
 .nav-link {
   font-family: 'Cocogoose', sans-serif;
   text-transform:uppercase;
@@ -175,6 +165,7 @@ form button.btn-primary:hover {
 .hero .slide-content {
   min-height: 600px;
   color: #fff;
+  margin-top: 60px;
   text-align: center; /* Centraliza o conteúdo horizontalmente */
 }
 
@@ -182,7 +173,9 @@ form button.btn-primary:hover {
   color: #F15D5F;
 }
 
-.hero .slide-content h1 {
+
+.hero .slide-content h3 {
+  font-size: 40px; /* Define o tamanho do texto para 2 rem (ou ajuste conforme necessário) */
   color: #fff;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
   text-transform: uppercase;
@@ -191,15 +184,11 @@ form button.btn-primary:hover {
   font-weight: bold;
 }
 
-.hero .slide-content p {
-  color: #000000;
+.hero .slide-content h4 {
+  color: #F5DE90;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
-  padding: 35px 0 35px 30px;
-  background-color:  #ffebab8c;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 10px;
-  margin-bottom: 0;
 }
 
 .hero .slide-content .btn {
@@ -262,9 +251,9 @@ form button.btn-primary:hover {
 }
 
 .hero-slider .swiper-slide .logo-capa {
-  margin-bottom: -70px;
   width: 30%; /* Defina a largura desejada */
   height: auto; /* Mantém a proporção da imagem */
+  padding-bottom: 15px;
 }
 
 
@@ -308,10 +297,6 @@ form button.btn-primary:hover {
 .title h6 {
   letter-spacing: 4px;
   margin-bottom: 20px;
-}
-
-.title h1 {
-  font-size: 35px;
 }
 
 .title .title-blue {
@@ -369,7 +354,7 @@ form button.btn-primary:hover {
     1 - Estatisticas
 ------------------------------------*/
 .statistics {
-  padding: 50px 0;
+  padding: 10px 0;
   background-color: #e79633; /* Cor de fundo cinza claro */
   border-top: 5px solid #E5763B; /* Borda superior azul */
   border-bottom: 5px solid #E5763B; /* Borda inferior azul */
@@ -381,14 +366,40 @@ form button.btn-primary:hover {
 
 .statistics .number {
   color: #fff; /* Cor branca para os números */
-  font-size: 48px;
+  font-size: 60px;
   font-weight: bold;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .statistics .description {
   color: #0C2441; /* Cor cinza claro para o texto */
-  font-size: 22px;
-  margin-top: 10px;
+  font-size: 28px;
+}
+
+/*-----------------------------------
+    1 - Estatisticas
+------------------------------------*/
+.statisticas {
+  padding: 60px 0;
+  background-color: #e79633; /* Cor de fundo cinza claro */
+  border-top: 5px solid #E5763B; /* Borda superior azul */
+  border-bottom: 5px solid #E5763B; /* Borda inferior azul */
+}
+
+.statisticas h1 {
+  color: #0C2441;
+}
+
+.statisticas .number {
+  color: #fff; /* Cor branca para os números */
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
+}
+
+.statisticas .description {
+  color: #0C2441; /* Cor cinza claro para o texto */
+  font-size: 28px;
 }
 
 
@@ -396,18 +407,25 @@ form button.btn-primary:hover {
     1 - Featured
 ------------------------------------*/
 .featured {
-  padding: 80px 0;
-  background-color: #A55874;
+  padding: 40px 0;
+  background: url(../images/fundo/13.jpg) center center/cover no-repeat #A55874;
 }
 
 .featured h1 {
-  color: #0ed3da;
+  font-size: 45px!important;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: #e79633;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .featured p {
+  text-align: justify;
   color: white;
   font-size: 18px;
   margin: 35px 0 53px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .featured .media i {
@@ -431,10 +449,10 @@ form button.btn-primary:hover {
 
 .featured-big,
 .featured-small {
-  width: 100%; 
+  width: 80%; 
   height: auto;
   margin-top: 80px;
-  border-radius: 30px;
+  border: 4px solid #e79633;
 }
 
 
@@ -451,20 +469,25 @@ form button.btn-primary:hover {
 /*-----------------------------------
     1 - Recent Posts
 ------------------------------------*/
+.recent-posts h1 {
+  font-size: 45px!important;
+  color: #F15D5F;
+  padding: 10px;
+  text-align: center;
+}
+
+
 .recent-posts {
-  padding: 65px 0 100px;
+  background: url(../images/fundo/15.jpg) center center/cover no-repeat #F9FCC9;
+  padding: 40px 0 100px;
 }
 
 .recent-posts .btn {
   margin-top: 60px;
 }
 
-.recent-posts .row .col-lg-4 {
-  margin-bottom: 30px; /* Adiciona um espaçamento entre os blocos */
-}
-
 .single-rpost {
-  margin: 35px 0 0;
+  margin: 30px 0 0;
 }
 
 .post-thumb {
@@ -478,7 +501,7 @@ form button.btn-primary:hover {
 }
 
 .post-content h3 {
-  margin: 20px 0; /* Aumenta a margem entre o título e o parágrafo */
+  margin: 10px 0; /* Aumenta a margem entre o título e o parágrafo */
 }
 
 .post-content h3 a {
@@ -495,6 +518,39 @@ form button.btn-primary:hover {
   color: #000000;
   margin-bottom: -30px; /* Aumenta a margem inferior do parágrafo */
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 40px; /* largura desejada */
+  height: 40px; /* altura desejada */
+  background-color: #f35457; /* cor de fundo */
+  color: #ffffff; /* cor do ícone */
+  border-radius: 50%; /* para criar uma forma de círculo */
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid #ffffff;
+}
+
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(255, 5, 5, 0.7); /* cor de fundo ao passar o mouse */
+}
+
+.swiper-button-prev {
+  left: 10px; /* distância da borda esquerda */
+}
+
+.swiper-button-next {
+  right: 10px; /* distância da borda direita */
+}
+
 
 /*-----------------------------------
     1 - Trust
@@ -589,12 +645,12 @@ form button.btn-primary:hover {
     1 - Pricing Table
 ------------------------------------*/
 .pricing-table {
-  padding: 100px 0;
-  background: #18A0A6;
+  background: url(../images/fundo/14.jpg) center center/cover no-repeat #159196;
+  padding: 50px 0;
 }
 
 .single-pricing {
-  padding: 65px 0 40px;
+  padding: 55px 0 20px;
   margin-top: 23px;
   margin-inline: 10px;
   color: #fff;
@@ -604,6 +660,10 @@ form button.btn-primary:hover {
   overflow: hidden;
   z-index: 1;
   transition: all 0.2s ease-in-out;
+}
+
+.single-pricing h2 {
+  text-transform: uppercase;
 }
 
 .single-pricing span {
@@ -622,14 +682,17 @@ form button.btn-primary:hover {
   width: 60px;
 }
 
-.single-pricing h2 {
-  margin-bottom: -5px;
+.pricing-table h1 {
+  font-size: 45px!important;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .single-pricing .desc {
   color: #18A0A6;
-  padding-bottom: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 18px;
   border-bottom: 1px solid #18A0A6;
   transition: all 0.2s ease-in-out;
 }
@@ -644,7 +707,44 @@ form button.btn-primary:hover {
 }
 
 .single-pricing p:last-of-type {
-  margin-bottom: 25px;
+  margin-bottom: 18px;
+}
+
+.single-pricing.palestras {
+  background-color: #ec9613;
+}
+
+.single-pricing.oficinas {
+  background-color: #5C8D5B;
+}
+
+.single-pricing.consultoria {
+  background-color: #A55874;
+}
+
+.single-pricing.hackathons {
+  background-color: #E67531;
+}
+
+/* Escurecer os ícones SVG */
+.single-pricing svg {
+  filter: brightness(0.8); /* Este valor pode ser ajustado conforme necessário */
+}
+
+.single-pricing.palestras .btn {
+  background-color: #BD780F !important;
+}
+
+.single-pricing.oficinas .btn {
+  background-color: #4A7149 !important;
+}
+
+.single-pricing.consultoria .btn {
+  background-color: #84465D !important;
+}
+
+.single-pricing.hackathons .btn {
+  background-color: #B85E27 !important;
 }
 
 .single-pricing svg {
@@ -660,10 +760,6 @@ form button.btn-primary:hover {
   border: 4px solid #fff;
   box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.16);
   margin: 19px 0 -4px;
-}
-
-.single-pricing:hover span {
-  background-color: #E67531;
 }
 
 .single-pricing:hover .desc {
@@ -685,19 +781,27 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #159196;
+  background: url(../images/fundo/14.jpg) center center/cover no-repeat #159196;
 }
 
 .testimonials {
-  padding: 95px 0 85px;
+  padding: 40px 0 40px;
   color: #fff;
   border-bottom: 1px solid #ffffff;
+}
+
+.testimonials h1 {
+  font-size: 45px!important;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .testimonials .test-img {
   width: 300px;
   height: 300px;
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -712,6 +816,7 @@ form button.btn-primary:hover {
 .testimonials h5 {
   color: #26264b;
   margin-top: 15px;
+  font-size: 40px;
 }
 
 .testimonials span {
@@ -723,11 +828,11 @@ form button.btn-primary:hover {
 .testimonials p {
   font-size: 17px;
   line-height: 27px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.589);
 }
 
 .test-pagination {
   text-align: center;
-  margin-top: 8px;
 }
 
 .test-pagination span {
@@ -780,7 +885,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #243D4D;
+  background: url(../images/fundo/16.jpg) center center/cover no-repeat #243D4D;
 }
 
 /*-----------------------------------
@@ -936,7 +1041,7 @@ span {
   line-height: 58px;
   background-color: #fff;
   color: #ddd;
-  background-color: #3b3b3b;
+  background-color: #E67531;
   border-radius: 50%;
   margin-right: 20px;
 }
@@ -955,7 +1060,7 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #19c8ce;
+  background-color: #1CAAAF;
   color: #000000;
 }
 
